@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="withText|always"/>
+
+    <item
+        android:id="@+id/action_compose"
+        android:title="Edit"
+        android:icon="@drawable/ic_edit"
+        app:showAsAction="withText|always"/>
+
+    <item
+        android:id="@+id/action_call"
+        android:title="Call"
+        android:icon="@drawable/ic_call"
+        app:showAsAction="withText|always"/>
+
+    <item
+        android:id="@+id/action_delete"
+        android:title="Delete"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="ifRoom"/>
+
+</menu>
